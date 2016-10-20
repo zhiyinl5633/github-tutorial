@@ -9,13 +9,11 @@ _by Kelly Lai_
 * Allows developers to organize different directories and files
 * Runs in the Command Line 
 * Git **DOES NOT** require Github 
----
+
 **GitHub** - stores the code that developers have written on the local machine, the computer, into the cloud, also know as the internet or the website [Github.com](https://github.com/)
 * Allows multiple developers to contribute and collaborate on files easily
 * Allows developers to visually track changes that other developers made
 * GitHub **REQUIRES** Git
-
-
 
 ---
 ## Initial Setup
