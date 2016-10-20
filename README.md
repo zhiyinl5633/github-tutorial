@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by Kelly Lai_
 
 ---
 ## Git vs. GitHub
