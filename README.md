@@ -18,12 +18,12 @@ _by Kelly Lai_
 
 ---
 ## Initial Setup
-To create a GitHub account  
+#### To create a GitHub account  
 1. Go to [Github.com](https://github.com/)
 2. Press the green sign up button on the top right corner
 3. Insert personal information
 
-To set up SSH key   
+#### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
 1. 
 
@@ -35,6 +35,7 @@ To set up SSH key
 2. Type `mkdir <directoryname>` to create a new directory under the home folder.
 3. Move into the directory by typing `cd <directoryname>`.
 4. Once inside the directory, type the command `git init` on the command line, which initializes Git in this directory and change the directory into a repository. (_Note_: This is only being done once at the beginning)
+    * If `git init` was use in the wrong directory, this can be fixed by typing `rm -rf .git` to uninitialize Git recursively and forcefully. 
 5. Create a file, it can be a `README.md`, by typing the command `touch <file.extension>` to create an empty file. Open the file in a new tab by typing `c9 <file>` into the command line
 6. (_Optional, but recommended_) Type `git status` in the command lineto check what files or changes are needed to be added to the staging area.
 7. Type `git add <file>` or `git add .` (Includes all changed files in current directory) to add the file that was created to the staging area in order to commit.
@@ -46,13 +47,14 @@ To set up SSH key
 [insert image]
 12. Make sure SSH is selected for the URL
 13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote  
-[insert image]
+[insert image]  
 * Note to self: maybe decribe the 2 lines of code? 
-
+---
+_Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local & Remote)
 
 ---
 ## Workflow & Commands
-**Ongoing workflow** 
+#### **Ongoing workflow** 
 * Type `cd <file.extension>` to move into the file and type `c9 <file.extension>` to open the file and edit the file.
 * (_Optional_) Type `git status`, which displays the files that have been edited since the last commit.
   * This will appear in RED
