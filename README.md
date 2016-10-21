@@ -17,12 +17,20 @@ _by Kelly Lai_
 
 ---
 ## Initial Setup
+To create a GitHub account
+1. Go to [Github.com](https://github.com/)
+2. Press the green sign up button on the top right corner
+3. Insert personal information
+
+To set up SSH key  
+(Note: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)
+1. 
 
 
 
 ---
 ## Repository Setup
-
+To sen
 
 
 ---
