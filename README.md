@@ -20,21 +20,33 @@ _by Kelly Lai_
 ## Initial Setup
 #### To create a GitHub account  
 1. Go to [Github.com](https://github.com/)
-2. Press the green sign up button on the top right corner
+2. Press the green sign up button on the top right corner  
+![Sign Up]() 
 3. Insert personal information
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
-1. 
-
-
+1. Log into [Github.com](https://github.com/)
+2. On the top-right corner, click the profile image and go to settings  
+[insert image]
+3. On the left sidebar, click SSH and GPG keys and then click New SSH key  
+[insert image]
+4. In the box for Title, type in **cloud9**
+5. To set up the Key
+* Switch back to c9 tab and click the gear icon located on the top-right corner
+* Switch back to the SSH keys tab and copy and paste the SSH key innto Github
+ * It should start with `ssh-rsa`
+* Add SSH key
+6. Go back to to c9 and open github-lerning IDE
+*  
 
 ---
 ## Repository Setup
-1. Type the command `cd ~/workspace`, which goes directly to the home folder. In this case, the highest we can go is `/workspace`.
+1. Type the command `cd ~/workspace` on the command line after logging into c9, which goes directly to the home folder. In this case, the highest we can go is `/workspace`.  
+(_Note_: To open the Terminal in c9, click "Window" and then click "New Terminal") 
 2. Type `mkdir <directoryname>` to create a new directory under the home folder.
 3. Move into the directory by typing `cd <directoryname>`.
-4. Once inside the directory, type the command `git init` on the command line, which initializes Git in this directory and change the directory into a repository. (_Note_: This is only being done once at the beginning)
+4. Once inside the directory, type the command `git init` on the command line, which initializes Git in this directory and change the directory into a repository. (_Note_: This is only being done once at the beginning and notice that (Master) will appear next to the name of the directory when initialized successfully)
     * If `git init` was use in the wrong directory, this can be fixed by typing `rm -rf .git` to uninitialize Git recursively and forcefully. 
 5. Create a file, it can be a `README.md`, by typing the command `touch <file.extension>` to create an empty file. Open the file in a new tab by typing `c9 <file>` into the command line
 6. (_Optional, but recommended_) Type `git status` in the command lineto check what files or changes are needed to be added to the staging area.
@@ -49,7 +61,9 @@ _by Kelly Lai_
 13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote  
 [insert image]  
 * Note to self: maybe decribe the 2 lines of code? 
+ 
 ---
+
 _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local & Remote)
 
 ---
@@ -64,14 +78,4 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 * Type `git commit -m "message"` to commit the files or take a "snapshot" of the code
   * The message should be written in present-tense, short, and specifically describe the changes made in the file
 * Type `git push` to send the commits that were made from the local repository (Computer) to the remote repository (Github).
-
-
-
-
-
-
-
-
-
-
 
