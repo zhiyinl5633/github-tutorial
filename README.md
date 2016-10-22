@@ -24,7 +24,7 @@ _by Kelly Lai_
 ![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io)   
 3. Insert personal information  
 ![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)    
-*Press the Green button for the next two pages
+* Press the Green button for the next two pages
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
@@ -34,10 +34,10 @@ _by Kelly Lai_
 3. On the left sidebar, click SSH and GPG keys. Next, click New SSH key. Then, in the box for Title, type in **cloud9**   
 ![New SSH Key]()  
 4. To set up the Key
-  * Switch back to c9 tab and click the gear icon located on the top-right corner
-  * Switch back to the SSH keys tab and copy and paste the SSH key innto Github
-    * It should start with `ssh-rsa`
-  * Add SSH key
+* Switch back to c9 tab and click the gear icon located on the top-right corner
+* Switch back to the SSH keys tab and copy and paste the SSH key innto Github
+  * It should start with `ssh-rsa`
+* Add SSH key  
 5. Go back to to c9 and open github-lerning IDE
 *  
 
