@@ -29,14 +29,15 @@ _by Kelly Lai_
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
 1. Log into [Cloud9](https://c9.io) with Github account 
+2. Follow the following steps:
 ![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
-2. Go to [Github.com](https://github.com/)
-3. On the top-right corner, click the profile image and go to settings  
+3. Go to [Github.com](https://github.com/)
+4. On the top-right corner, click the profile image and go to settings  
 ![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
-4.Follow the following steps:    
+5.Follow the following steps:    
 ![New SSH Key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/10.PNG?_c9_id=livepreview12&_c9_host=https://ide.c9.io)  
-5. Go back to to c9 and open github-learning IDE
-6. Enter `ssh -T git@github.com` into the command line and `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.` will appear.
+6. Go back to to c9 and open github-learning IDE
+7. Enter `ssh -T git@github.com` into the command line and `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.` will appear.
 
 ---
 ## Repository Setup
