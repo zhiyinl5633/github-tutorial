@@ -28,18 +28,15 @@ _by Kelly Lai_
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
-1. Log into Github account on [Github.com](https://github.com/)  
-2. On the top-right corner, click the profile image and go to settings  
+1. Log into [Cloud9](https://c9.io) with Github account 
+![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
+2. Go to [Github.com](https://github.com/)
+3. On the top-right corner, click the profile image and go to settings  
 ![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
-3. On the left sidebar, click SSH and GPG keys. Next, click New SSH key. Then, in the box for Title, type in **cloud9**   
-![New SSH Key]()  
-4. To set up the Key
-* Switch back to c9 tab and click the gear icon located on the top-right corner
-* Switch back to the SSH keys tab and copy and paste the SSH key innto Github
-  * It should start with `ssh-rsa`
-* Add SSH key  
-5. Go back to to c9 and open github-lerning IDE
-*  
+4.Follow the following steps:    
+![New SSH Key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/10.PNG?_c9_id=livepreview12&_c9_host=https://ide.c9.io)  
+5. Go back to to c9 and open github-learning IDE
+6. Enter `ssh -T git@github.com` into the command line and `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.` will appear.
 
 ---
 ## Repository Setup
@@ -56,16 +53,17 @@ _by Kelly Lai_
 9. Go to [Github.com](https://github.com/) and log into GitHub account
 10. Click the "+" sign next to profile picture and click "New repository"  
 ![Create New Repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/5.PNG?_c9_id=livepreview7&_c9_host=https://ide.c9.io)
-11. Name the repository EXACTLY the same as the name of the directory/repository on Git and click "Create repository".  
+11. Name the repository **EXACTLY** the same as the name of the directory/repository on Git and click "Create repository".  
 ![Create repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/6.PNG?_c9_id=livepreview6&_c9_host=https://ide.c9.io)
 12. Make sure SSH is selected for the URL
 13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote    
 It should look like this:    
 ```
-git remote add origin git@github.com:[username]/repo-name.git
+git remote add origin git@github.com:[username]/repo-name.git 
+//sets up a connection between local repo and repo located in Github and adds remote to a certain location[URL]
 git push -u origin master
+//push commits to main branch and git remembers to push to orgin master once "git push" is typed
 ```
-* Note to self: maybe decribe the 2 lines of code? 
  
 ---
 
@@ -95,11 +93,4 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
  1. Fork and clone the repository
  2. Make changes to the files
  3. Save, Add, Commit, Push
-  4. Go to the repository and click on "New pull request" and then click the green button, "Create pull request"
-
-
-
-
-
-
-
+ 4. Go to the repository and click on "New pull request" and then click the green button, "Create pull request"
