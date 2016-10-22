@@ -21,9 +21,9 @@ _by Kelly Lai_
 #### To create a GitHub account  
 1. Go to [Github.com](https://github.com/)
 2. Press the green sign up button on the top right corner  
-![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview2&_c9_host=https://ide.c9.io) 
+![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io) 
 3. Insert personal information  
-![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview1&_c9_host=https://ide.c9.io)  
+![Insert Info]()  
 *Press the Green button for the next two pages
 
 
