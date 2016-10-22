@@ -21,24 +21,23 @@ _by Kelly Lai_
 #### To create a GitHub account  
 1. Go to [Github.com](https://github.com/)
 2. Press the green sign up button on the top right corner  
-![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io) 
+![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io)   
 3. Insert personal information  
-![Insert Info]()  
+![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)    
 *Press the Green button for the next two pages
-
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
-1. Log into Github account on [Github.com](https://github.com/)
+1. Log into Github account on [Github.com](https://github.com/)  
 2. On the top-right corner, click the profile image and go to settings  
-![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
-3. On the left sidebar, click SSH and GPG keys. Next, click New SSH key. Then, in the box for Title, type in **cloud9** 
-![New SSH Key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/4.PNG?_c9_id=livepreview4&_c9_host=https://ide.c9.io)
+![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
+3. On the left sidebar, click SSH and GPG keys. Next, click New SSH key. Then, in the box for Title, type in **cloud9**   
+![New SSH Key]()  
 4. To set up the Key
-* Switch back to c9 tab and click the gear icon located on the top-right corner
-* Switch back to the SSH keys tab and copy and paste the SSH key innto Github
- * It should start with `ssh-rsa`
-* Add SSH key
+  * Switch back to c9 tab and click the gear icon located on the top-right corner
+  * Switch back to the SSH keys tab and copy and paste the SSH key innto Github
+    * It should start with `ssh-rsa`
+  * Add SSH key
 5. Go back to to c9 and open github-lerning IDE
 *  
 
@@ -57,7 +56,7 @@ _by Kelly Lai_
 9. Go to [Github.com](https://github.com/) and log into GitHub account
 10. Click the "+" sign next to profile picture and click "New repository"  
 ![Create New Repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/5.PNG?_c9_id=livepreview7&_c9_host=https://ide.c9.io)
-11. Name the repository EXACTLY the same as the name of the directory/repository on Git and click Create repository.  
+11. Name the repository EXACTLY the same as the name of the directory/repository on Git and click "Create repository".  
 ![Create repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/6.PNG?_c9_id=livepreview6&_c9_host=https://ide.c9.io)
 12. Make sure SSH is selected for the URL
 13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote    
