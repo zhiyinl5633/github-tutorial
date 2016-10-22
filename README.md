@@ -28,7 +28,7 @@ _by Kelly Lai_
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
-1. Log into [Cloud9](https://c9.io) with Github account 
+1. Log into [Cloud9](https://c9.io) with Github account   
 2. Follow the following steps:
 ![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
 3. Go to [Github.com](https://github.com/)
@@ -73,7 +73,8 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 ---
 ## Workflow & Commands
 #### **Ongoing Workflow For Git** 
-* Type `cd <file.extension>` to move into the file and type `c9 <file.extension>` to open the file and edit the file.
+* Type `cd <file.extension>` to move into the file and type `c9 <file.extension>` to open the file and edit the file.  
+(_Note_: Make sure to turn on Auto-save or press Ctrl+S)
 * (_Optional_) Type `git status`, which displays the files that have been edited since the last commit.
   * This will appear in RED
 * Type `git add <file.extension>` or `git add .`(Adds all changed file in current directory) to put the files on the stage, so the files are ready to commit.
