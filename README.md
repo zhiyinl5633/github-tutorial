@@ -90,8 +90,8 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 * **Fork** - When forking someone else's repository, it gives developers a remote copy of that person's remote repository. Now, the developer is given the permission to clone the remote to their own computer and able to push changes to their remote.
 * **Clone** - When cloning someone else's repository, it creates a copy of that person's remote repository in the developer's computer. The command for cloning a repository is `git clone <URL>`, copy the SSH clone URL and paste it after `git clone`.(_Note_: make sure to `cd` into the directory after cloning it) However, the developer is not given the permisson to push their changes into that person's remote. In order to push changes, the developer must send a **pull request** and have the owner of the remote repository accept the request. Once the pull rquest is approved, the owner of the remote repository can now use the command `git pull` to view or edit the developer's changes in their own computer.
 *  **How to Fork and Clone:**  
-![Steps to Fork&Clone](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/8.PNG?_c9_id=livepreview10&_c9_host=https://ide.c9.io)
-* **How to Send Pull Requests:** 
+![Steps to Fork&Clone](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/8.PNG?_c9_id=livepreview10&_c9_host=https://ide.c9.io)  
+* **How to Send Pull Requests:**   
 1. Fork and clone the repository
 2. Make changes to the files
 3. Save, Add, Commit, Push
