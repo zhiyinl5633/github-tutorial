@@ -21,8 +21,11 @@ _by Kelly Lai_
 #### To create a GitHub account  
 1. Go to [Github.com](https://github.com/)
 2. Press the green sign up button on the top right corner  
-![Sign Up]() 
+![Sign Up](/github-tutorial/1.PNG) 
 3. Insert personal information
+![Insert Info](/github-tutorial/2.PNG)
+*Press the Green button for the next two pages
+
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
