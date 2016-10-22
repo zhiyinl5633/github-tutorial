@@ -33,7 +33,7 @@ _by Kelly Lai_
 ![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
 3. Go to [Github.com](https://github.com/)  
 4. On the top-right corner, click the profile image and go to settings  
-![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
+![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview13&_c9_host=https://ide.c9.io)  
 5.Follow the following steps:    
 ![New SSH Key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/10.PNG?_c9_id=livepreview12&_c9_host=https://ide.c9.io)  
 6. Go back to to c9 and open github-learning IDE  
