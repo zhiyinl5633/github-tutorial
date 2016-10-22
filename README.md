@@ -92,10 +92,10 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 *  **How to Fork and Clone:**  
 ![Steps to Fork&Clone](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/8.PNG?_c9_id=livepreview10&_c9_host=https://ide.c9.io)  
 * **How to Send Pull Requests:**   
-1. Fork and clone the repository
-2. Make changes to the files
-3. Save, Add, Commit, Push
-4. Go to the repository and click on "New pull request" and then click the green button, "Create pull request"
+ 1. Fork and clone the repository
+ 2. Make changes to the files
+ 3. Save, Add, Commit, Push
+  4. Go to the repository and click on "New pull request" and then click the green button, "Create pull request"
 
 
 
