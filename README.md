@@ -31,7 +31,7 @@ _by Kelly Lai_
 1. Log into [Cloud9](https://c9.io) with Github account   
 2. Follow the following steps:
 ![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
-3. Go to [Github.com](https://github.com/)
+3. Go to [Github.com](https://github.com/)  
 4. On the top-right corner, click the profile image and go to settings  
 ![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)  
 5.Follow the following steps:    
