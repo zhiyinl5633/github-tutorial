@@ -29,18 +29,17 @@ _by Kelly Lai_
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
-1. Log into [Github.com](https://github.com/)
+1. Log into Github account on [Github.com](https://github.com/)
 2. On the top-right corner, click the profile image and go to settings  
-[insert image]
-3. On the left sidebar, click SSH and GPG keys and then click New SSH key  
-[insert image]
-4. In the box for Title, type in **cloud9**
-5. To set up the Key
+![Settings](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
+3. On the left sidebar, click SSH and GPG keys. Next, click New SSH key. Then, in the box for Title, type in **cloud9** 
+![New SSH Key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/4.PNG?_c9_id=livepreview4&_c9_host=https://ide.c9.io)
+4. To set up the Key
 * Switch back to c9 tab and click the gear icon located on the top-right corner
 * Switch back to the SSH keys tab and copy and paste the SSH key innto Github
  * It should start with `ssh-rsa`
 * Add SSH key
-6. Go back to to c9 and open github-lerning IDE
+5. Go back to to c9 and open github-lerning IDE
 *  
 
 ---
@@ -57,12 +56,16 @@ _by Kelly Lai_
 8. After the file is being added to the stage, type `git commit -m "message"` in the command line to commit the code. In other words, this command takes a "snapshot" of the code and the message describe the changes in a short, present-tense, and specific way.
 9. Go to [Github.com](https://github.com/) and log into GitHub account
 10. Click the "+" sign next to profile picture and click "New repository"  
-[insert image]
-11. Name the repository EXACTLY the same as the name of the directory/repository on Git and create repository.  
-[insert image]
+![Create New Repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/5.PNG?_c9_id=livepreview7&_c9_host=https://ide.c9.io)
+11. Name the repository EXACTLY the same as the name of the directory/repository on Git and click Create repository.  
+![Create repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/6.PNG?_c9_id=livepreview6&_c9_host=https://ide.c9.io)
 12. Make sure SSH is selected for the URL
-13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote  
-[insert image]  
+13. Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote    
+It should look like this:    
+```
+git remote add origin git@github.com:[username]/repo-name.git
+git push -u origin master
+```
 * Note to self: maybe decribe the 2 lines of code? 
  
 ---
