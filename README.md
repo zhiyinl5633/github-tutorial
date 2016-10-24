@@ -85,7 +85,20 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 * Type `git commit -m "message"` to commit the files or take a "snapshot" of the code
   * The message should be written in present-tense, short, and specifically describe the changes made in the file
 * Type `git push` to send the commits that were made from the local repository (Computer) to the remote repository (Github).
-
+  * It should look like this:
+  ```bash
+  <username>:~/workspace/github-tutorial (master) $ git push
+  Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+  Counting objects: 3, done.
+  Delta compression using up to 8 threads.
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 445 bytes | 0 bytes/s, done.
+  Total 3 (delta 2), reused 0 (delta 0)
+  remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+  To github.com:<username>/github-tutorial.git
+   f02e2fe..3e525a8  master -> master
+  ```
+  
 ---
 ## Collaboration 
 #### Fork and Clone
