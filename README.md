@@ -10,7 +10,7 @@ _by Kelly Lai_
 * Runs in the Command Line 
 * Git **DOES NOT** require Github 
 
-**GitHub** - stores the code that developers have written on the local machine, the computer, into the cloud, also know as the internet or the website([Github.com](https://github.com/))
+**GitHub** - stores the code that developers have written on the local machine, the computer, into the cloud, also know as the internet or the website ([Github.com](https://github.com/))
 * Allows multiple developers to contribute and collaborate on files easily
 * Allows developers to visually track changes that other developers made
 * Also runs in the Command Line
@@ -22,9 +22,11 @@ _by Kelly Lai_
 1. Go to [Github.com](https://github.com/)
 2. Press the green sign up button on the top right corner  
 ![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io)   
-3. Insert personal information  
+3. Insert personal information
+* Username and Password should be the same username and password as hstat email  
 ![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)    
 * Press the Green button for the next two pages
+4. When finish signing up, check email and verify with Github 
 
 #### To set up SSH key   
 (_Note_: It is better to use the SSH rather than the HTTPS because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
