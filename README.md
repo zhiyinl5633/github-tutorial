@@ -24,7 +24,7 @@ _by Kelly Lai_
 ![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io)   
 3. Insert personal information
 * Username and Password should be the same username and password as hstat email  
-![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)      
+![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview0&_c9_host=https://ide.c9.io)      
 * Press the Green button for the next two pages
 4. When finish signing up, check email and verify with Github 
 
