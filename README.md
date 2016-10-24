@@ -24,7 +24,7 @@ _by Kelly Lai_
 ![Sign Up](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&_c9_host=https://ide.c9.io)   
 3. Insert personal information
 * Username and Password should be the same username and password as hstat email  
-![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)    
+![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview9&_c9_host=https://ide.c9.io)      
 * Press the Green button for the next two pages
 4. When finish signing up, check email and verify with Github 
 
@@ -51,7 +51,8 @@ _by Kelly Lai_
     * If `git init` was use in the wrong directory, this can be fixed by typing `rm -rf .git` to uninitialize Git recursively and forcefully. 
 5. Create a file, it can be a `README.md`, by typing the command `touch <file.extension>` to create an empty file. Open the file in a new tab by typing `c9 <file>` into the command line
 6. (_Optional, but recommended_) Type `git status` in the command lineto check what files or changes are needed to be added to the staging area.
-7. Type `git add <file>` or `git add .` (Includes all changed files in current directory) to add the file that was created to the staging area in order to commit.
+7. Type `git add <file>` or `git add .` (Includes all changed files in current directory) to add the file that was created to the staging area in order to commit.  
+(_Note_: Type the command `git reset HEAD <file>` to unstage a file)
 8. After the file is being added to the stage, type `git commit -m "message"` in the command line to commit the code. In other words, this command takes a "snapshot" of the code and the message describe the changes in a short, present-tense, and specific way.
 9. Go to [Github.com](https://github.com/) and log into GitHub account
 10. Click the "+" sign next to profile picture and click "New repository"  
