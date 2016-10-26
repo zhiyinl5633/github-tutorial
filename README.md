@@ -26,10 +26,10 @@ _by Kelly Lai_
 * Username and Password should be the same username and password as hstat email  
 ![Insert Info](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview0&_c9_host=https://ide.c9.io)      
 * Press the Green button for the next two pages
-4. When finish signing up, make sure to check email and verify with Github 
+4. When you are finished signing up, make sure to check your email and verify with Github 
 
 #### To set up SSH key   
-(_Note_: It is better to use the SSH key rather than the HTTPS key because SSH only requires one-time setup while HTTPS requires to enter login info every time)  
+(_Note_: It is better to use the SSH key rather than the HTTPS key because SSH only requires a one-time setup while HTTPS requires you to enter login info every time)  
 1. Log into [Cloud9](https://c9.io) with Github account   
 2. Follow the following steps:
 ![Copy SSH key](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&_c9_host=https://ide.c9.io)
