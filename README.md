@@ -43,19 +43,19 @@ _by Kelly Lai_
 
 ---
 ## Repository Setup
-1. Type the command `cd ~/workspace` on the command line after logging into [Cloud9](https://c9.io), which moves directly to the home folder. In this case, the highest we can go is `/workspace`.  
-(_Note_: To open the Terminal in c9, click "Window" and then click "New Terminal") 
+1. Type the command `cd ~/workspace` on the command line after logging into [Cloud9](https://c9.io), which moves directly to the home folder. In this case, the highest we can go is `/workspace` because it is the "parent" repo of all the folders in the workspace.  
+(_Note_: To open the Terminal or Bash in c9, click "Window" on the upper left menu and then click on "New Terminal") 
 2. Type `mkdir <directoryname>` to create a new directory under the home folder.
 3. Move into the directory by typing `cd <directoryname>`.
-4. Once inside the directory, type the command `git init` on the command line, which initializes Git in this directory and change the directory into a repository. (_Note_: This is only being done once at the beginning and notice that (Master) will appear next to the name of the directory when initialized successfully)
+4. Once inside the directory, type the command `git init` on the command line (bash), which initializes Git in this directory and changes the directory into a repository. (_Note_: This is only being done once at the beginning and notice that (Master) will appear next to the name of the directory when initialized successfully)
     * If `git init` was used in the wrong directory, this can be fixed by typing `rm -rf .git` to uninitialize Git recursively and forcefully. 
-5. Create a file, it can be a `README.md`, by typing the command `touch <file.extension>` to create an empty file. Open the file in a new tab by typing `c9 <file>` into the command line
-(_Note_: When accidently exits the command line or when `>` appears, press "Ctrl + C" or "Ctrl + D" to interrupt or stop the current command)
+5. Create a file, it can be a `README.md`, by typing the command `touch <file.extension>` to create an empty file. Open the file in a new tab by typing `c9 <file>` into the command line or you can open it interactively by going on the side menu and clicking on the file twice
+(_Note_: When accidentally exiting the command line or when `>` appears, press "Ctrl + C" or "Ctrl + D" to interrupt or stop the current command)
 6. (_Optional, but recommended_) Type `git status` in the command line to check which files or changes needs to be added to the staging area.
 7. Type `git add <file>` or `git add .` (Includes all changed files in current directory) to add the file that was created to the staging area in order to commit.  
 (_Note_: Type the command `git reset HEAD <file>` to unstage a file)
-8. After the file is added to the stage, type `git commit -m "message"` in the command line to commit the code. In other words, this command will take a "snapshot" of the code and the message describes the changes in a short, present-tense, and specific way.
-9. Go to [Github.com](https://github.com/) and log into GitHub account
+8. After the file is added to the stage, type `git commit -m "message"` in the command line to commit the code. In other words, this command will take a "snapshot" of the code and the message describes the changes in a short, but specific way. The message also must be in the present tense.
+9. Go to [Github.com](https://github.com/) and log into your GitHub account
 10. Click the "+" sign next to profile picture and click "New repository"  
 ![Create New Repo](https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/5.PNG?_c9_id=livepreview7&_c9_host=https://ide.c9.io)
 11. Name the repository **EXACTLY** the same as the name of the directory/repository on Git and click "Create repository".  
