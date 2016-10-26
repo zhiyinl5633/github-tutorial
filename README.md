@@ -85,7 +85,7 @@ _Note_: Type `rm -rf <repositoryname>` to remove a repository completely (Local 
 * (_Optional, Recommended_) Type `git status` to view the files that are staged and ready to commit
   * This will appear in GREEN 
 * Type `git commit -m "message"` to commit the files or take a "snapshot" of the code
-  * The message should be written in present-tense, short, and specifically describe the changes made in the file
+  * The message should be written in the present-tense. It also has to be short, but specific to describe the changes made in the file
 * Type `git push` to send the commits that were made from the local repository (Computer) to the remote repository (Github).
   * It should look like this:
   ```bash
