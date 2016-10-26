@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Github Tutorial by zhiyinl5633</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Github Tutorial</h1>
+        <h2>Git Ready for Git and Github</h2>
+        <a href="https://github.com/zhiyinl5633/github-tutorial" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Kelly Lai</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong>Git</strong> - keeps a timeline of "snapshots" or commits that developers have made in their file while working on the project during specific times.</p>
+
+<ul>
+<li>Allows developers to refer back to the code that they have already written and apply additional changes to their file. They can also debug their code to make it more functional</li>
+<li>Allows developers to organize different directories and files</li>
+<li>Runs in the Command Line </li>
+<li>Git <strong>DOES NOT</strong> require Github </li>
+</ul>
+
+<p><strong>GitHub</strong> - stores the code that developers have written on the local machine, the computer, and into the cloud- also know as the internet or the website (<a href="https://github.com/">Github.com</a>)</p>
+
+<ul>
+<li>Allows multiple developers to contribute and collaborate on files easily</li>
+<li>Allows developers to visually track changes that other developers have made</li>
+<li>Also runs in the Command Line</li>
+<li>GitHub <strong>REQUIRES</strong> Git</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h4>
+<a id="to-create-a-github-account" class="anchor" href="#to-create-a-github-account" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To create a GitHub account</h4>
+
+<ol>
+<li>Go to <a href="https://github.com/">Github.com</a>
+</li>
+<li>Press the green sign up button on the top right corner<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/1.PNG?_c9_id=livepreview8&amp;_c9_host=https://ide.c9.io" alt="Sign Up"><br>
+</li>
+<li>Insert personal information</li>
+<li>Username and Password should be the same username and password as hstat email<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/2.PNG?_c9_id=livepreview0&amp;_c9_host=https://ide.c9.io" alt="Insert Info"><br>
+</li>
+<li>Press the Green button for the next two pages</li>
+<li>When finished signing up, make sure to check the email and verify with Github </li>
+</ol>
+
+<h4>
+<a id="to-set-up-ssh-key" class="anchor" href="#to-set-up-ssh-key" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To set up SSH key</h4>
+
+<p>(<em>Note</em>: It is better to use the SSH key rather than the HTTPS key because SSH only requires a one-time setup while HTTPS require to enter login info every time)<br>
+1. Log into <a href="https://c9.io">Cloud9</a> with Github account<br>
+2. Follow the following steps:
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/9.PNG?_c9_id=livepreview11&amp;_c9_host=https://ide.c9.io" alt="Copy SSH key">
+3. Go to <a href="https://github.com/">Github.com</a><br>
+4. On the top-right corner, click the profile image and go to settings<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/3.PNG?_c9_id=livepreview13&amp;_c9_host=https://ide.c9.io" alt="Settings"><br>
+5.Follow the following steps:<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/10.PNG?_c9_id=livepreview12&amp;_c9_host=https://ide.c9.io" alt="New SSH Key"><br>
+6. Go back to to c9 and open github-learning IDE<br>
+7. Enter <code>ssh -T git@github.com</code> into the command line and <code>Hi &lt;username&gt;! You've successfully authenticated, but GitHub does not provide shell access.</code> will appear.</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<ol>
+<li>Type the command <code>cd ~/workspace</code> on the command line after logging into <a href="https://c9.io">Cloud9</a>, which moves directly to the home folder. In this case, the highest we can go is <code>/workspace</code> because it is the "parent" repo of all the folders in the workspace.<br>
+(<em>Note</em>: To open the Terminal or Bash in c9, click "Window" on the upper left menu and then click on "New Terminal") </li>
+<li>Type <code>mkdir &lt;directoryname&gt;</code> to create a new directory under the home folder.</li>
+<li>Move into the directory by typing <code>cd &lt;directoryname&gt;</code>.</li>
+<li>Once inside the directory, type the command <code>git init</code> on the command line (bash), which initializes Git in this directory and changes the directory into a repository.<br>
+(<em>Note</em>: This is only being done once at the beginning and notice that (Master) will appear next to the name of the directory when initialized successfully)
+
+<ul>
+<li>If <code>git init</code> was used in the wrong directory, this can be fixed by typing <code>rm -rf .git</code> to uninitialize Git recursively and forcefully. </li>
+</ul>
+</li>
+<li>Create a file, it can be a <code>README.md</code>, by typing the command <code>touch &lt;file.extension&gt;</code> to create an empty file. Open the file in a new tab by typing <code>c9 &lt;file&gt;</code> into the command line or open it interactively by going on the side menu and clicking on the file twice<br>
+(<em>Note</em>: When accidentally exiting the command line or when <code>&gt;</code> appears, press "Ctrl + C" or "Ctrl + D" to interrupt or stop the current command)</li>
+<li>(<em>Optional, but recommended</em>) Type <code>git status</code> in the command line to check which files or changes needs to be added to the staging area.</li>
+<li>Type <code>git add &lt;file&gt;</code> or <code>git add .</code> (Includes all changed files in current directory) to add the file that was created to the staging area in order to commit.<br>
+(<em>Note</em>: Type the command <code>git reset HEAD &lt;file&gt;</code> to unstage a file)</li>
+<li>After the file is added to the stage, type <code>git commit -m "message"</code> in the command line to commit the code. In other words, this command will take a "snapshot" of the code and the message describes the changes in a short, but specific way. The message also must be in the present tense.</li>
+<li>Go to <a href="https://github.com/">Github.com</a> and log into GitHub account</li>
+<li>Click the "+" sign next to profile picture and click "New repository"<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/5.PNG?_c9_id=livepreview7&amp;_c9_host=https://ide.c9.io" alt="Create New Repo">
+</li>
+<li>Name the repository <strong>EXACTLY</strong> the same as the name of the directory/repository on Git and click "Create repository".<br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/6.PNG?_c9_id=livepreview6&amp;_c9_host=https://ide.c9.io" alt="Create repo">
+</li>
+<li>Make sure SSH is selected for the URL</li>
+<li>Copy the two lines of code one at a time and paste it into the command line to connect the repository to the remote<br>
+It should look like this:<br>
+</li>
+</ol>
+
+<pre><code>git remote add origin git@github.com:[username]/repo-name.git 
+//sets up a connection between local repo and repo located in Github and adds remote to a certain location[URL]
+git push -u origin master
+//push commits to main branch and git remembers to push to orgin master once "git push" is typed
+</code></pre>
+
+<hr>
+
+<p><em>Note</em>: Type <code>rm -rf &lt;repositoryname&gt;</code> to remove a repository completely (Local &amp; Remote)</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<h4>
+<a id="ongoing-workflow-for-git" class="anchor" href="#ongoing-workflow-for-git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Ongoing Workflow For Git</strong>
+</h4>
+
+<ul>
+<li>Type <code>cd &lt;file.extension&gt;</code> to move into the file and type <code>c9 &lt;file.extension&gt;</code> to open the file and edit the file.<br>
+(<em>Note</em>: Make sure to turn on Auto-save or press "Ctrl+S")</li>
+<li>(<em>Optional</em>) Type <code>git status</code>, which displays the files that have been edited since the last commit.
+
+<ul>
+<li>This will appear in RED</li>
+</ul>
+</li>
+<li>Type <code>git add &lt;file.extension&gt;</code> or <code>git add .</code>(Adds all changed file in current directory) to put the files on the stage, so the files are ready to commit.</li>
+<li>(<em>Optional, Recommended</em>) Type <code>git status</code> to view the files that are staged and ready to commit
+
+<ul>
+<li>This will appear in GREEN </li>
+</ul>
+</li>
+<li>Type <code>git commit -m "message"</code> to commit the files or take a "snapshot" of the code
+
+<ul>
+<li>The message should be written in the present-tense. It also has to be short, but specific to describe the changes made in the file</li>
+</ul>
+</li>
+<li>Type <code>git push</code> to send the commits that were made from the local repository (Computer) to the remote repository (Github).
+
+<ul>
+<li>It should look like this:</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre><span class="pl-k">&lt;</span>username<span class="pl-k">&gt;</span>:<span class="pl-k">~</span>/workspace/github-tutorial (master) $ git push
+Warning: Permanently added <span class="pl-s"><span class="pl-pds">'</span>github.com,192.30.253.113<span class="pl-pds">'</span></span> (RSA) to the list of known hosts.
+Counting objects: 3, <span class="pl-k">done</span>.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), <span class="pl-k">done</span>.
+Writing objects: 100% (3/3), 445 bytes <span class="pl-k">|</span> 0 bytes/s, <span class="pl-k">done</span>.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 <span class="pl-k">local</span> objects.
+To github.com:<span class="pl-k">&lt;</span>username<span class="pl-k">&gt;</span>/github-tutorial.git
+f02e2fe..3e525a8  master -<span class="pl-k">&gt;</span> master</pre></div>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<h4>
+<a id="fork-and-clone" class="anchor" href="#fork-and-clone" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fork and Clone</h4>
+
+<ul>
+<li>
+<strong>Fork</strong> - When forking someone else's repository, it gives developers a remote copy of another person's remote repository. Now, the developer is given the permission to clone the remote to their own computer and are able to push changes to their remote.</li>
+<li>
+<strong>Clone</strong> - When cloning someone else's repository, it creates a copy of another person's remote repository in the developer's computer. The command for cloning a repository is <code>git clone &lt;URL&gt;</code>, copy the SSH clone URL and paste it after <code>git clone</code>. (<em>Note</em>: make sure to <code>cd</code> into the directory after cloning it) However, the developer is not given the permisson to push their changes into the owner's remote. In order to push changes, the developer must send a <strong>pull request</strong> and have the owner of the remote repository accept the request. Once all the pull requests are approved, the owner of the remote repository can now use the command <code>git pull</code> to view or edit the developer's changes on their own computer.<br>
+<strong>How to Fork and Clone:</strong><br>
+<img src="https://preview.c9users.io/zhiyinl5633/github-learning/github-tutorial/8.PNG?_c9_id=livepreview10&amp;_c9_host=https://ide.c9.io" alt="Steps to Fork&amp;Clone"><br>
+<strong>How to Send Pull Requests:</strong><br>
+
+<ol>
+<li>Fork and clone the repository</li>
+<li>Make changes to the files</li>
+<li>Save, Add, Commit, Push</li>
+<li>Go to the repository and click on "New pull request" and then click the green button, "Create pull request"</li>
+</ol>
+</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/zhiyinl5633/github-tutorial/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/zhiyinl5633/github-tutorial/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/zhiyinl5633/github-tutorial"></a> is maintained by <a href="https://github.com/zhiyinl5633">zhiyinl5633</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
